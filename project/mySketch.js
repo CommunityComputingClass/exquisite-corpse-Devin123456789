@@ -14,3 +14,14 @@ function draw() {
   textSize(12 + (mouseX / width)*72);
   text("Connect, Connect, Connect", 50, 200);
 }
+
+function KeyPressed(){
+  if (keyCode === 81){
+    WhiteSquare()
+  }
+}
+
+function WhiteSquare(){
+  Rect(30, 20, 55, 55);
+  fill('130,200,130');
+}
